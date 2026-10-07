@@ -1,0 +1,42 @@
+[
+  {
+    "id": "pm-kisan",
+    "name": { "en": "PM-KISAN", "mr": "पीएम-किसान (PM-KISAN)" },
+    "purpose": { "en": "Income support of ₹6,000 per year in 3 equal installments.", "mr": "दरवर्षी ३ समान हप्त्यांमध्ये ₹६,००० चे उत्पन्न समर्थन." },
+    "eligibility": { "en": "All landholding farmer families (subject to exclusion criteria).", "mr": "सर्व जमीनधारक शेतकरी कुटुंबे (काही अपवाद वगळून)." },
+    "link": "https://pmkisan.gov.in",
+    "lastChecked": "2024-03-01"
+  },
+  {
+    "id": "pmfby",
+    "name": { "en": "Pradhan Mantri Fasal Bima Yojana (PMFBY)", "mr": "प्रधानमंत्री पीक विमा योजना (PMFBY)" },
+    "purpose": { "en": "Crop insurance against non-preventable natural risks.", "mr": "नैसर्गिक आपत्तींमुळे होणाऱ्या पिकांच्या नुकसानीवर पीक विमा." },
+    "eligibility": { "en": "All farmers growing notified crops in notified areas.", "mr": "अधिसूचित क्षेत्रात अधिसूचित पिके घेणारे सर्व शेतकरी." },
+    "link": "https://pmfby.gov.in",
+    "lastChecked": "2024-03-01"
+  },
+  {
+    "id": "pmksy",
+    "name": { "en": "Pradhan Mantri Krishi Sinchayee Yojana", "mr": "प्रधानमंत्री कृषी सिंचन योजना (PMKSY)" },
+    "purpose": { "en": "Subsidy for micro-irrigation (drip/sprinkler) to improve water efficiency.", "mr": "पाण्याच्या कार्यक्षम वापरासाठी सूक्ष्म सिंचन (ठिबक/तुषार) अनुदान." },
+    "eligibility": { "en": "Farmers with cultivable land.", "mr": "शेतीयोग्य जमीन असलेले शेतकरी." },
+    "link": "https://pmksy.gov.in",
+    "lastChecked": "2024-03-01"
+  },
+  {
+    "id": "shc",
+    "name": { "en": "Soil Health Card", "mr": "मृदा आरोग्य पत्रिका (Soil Health Card)" },
+    "purpose": { "en": "Provides soil nutrient status and fertilizer recommendations.", "mr": "मातीतील पोषक घटकांची स्थिती आणि खतांच्या शिफारसी देते." },
+    "eligibility": { "en": "Available for all farmers based on grid soil sampling.", "mr": "माती परीक्षणाच्या आधारे सर्व शेतकऱ्यांसाठी उपलब्ध." },
+    "link": "https://soilhealth.dac.gov.in",
+    "lastChecked": "2024-03-01"
+  },
+  {
+    "id": "kcc",
+    "name": { "en": "Kisan Credit Card (KCC)", "mr": "किसान क्रेडिट कार्ड (KCC)" },
+    "purpose": { "en": "Short-term credit limits for crop production and allied activities.", "mr": "पीक उत्पादन आणि संबंधित कामांसाठी अल्प-मुदतीचे कर्ज." },
+    "eligibility": { "en": "All farmers, including tenant farmers and sharecroppers.", "mr": "सर्व शेतकरी, कुळ आणि भाडेकरू शेतकऱ्यांसह." },
+    "link": "https://pmkisan.gov.in",
+    "lastChecked": "2024-03-01"
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "home": "Home",
+    "crops": "Crops",
+    "diseaseGuide": "Disease Guide",
+    "fertilizerGuide": "Fertilizer Guide",
+    "schemes": "Schemes",
+    "tips": "Tips",
+    "help": "Help",
+    "search": "Search..."
+  },
+  "home": {
+    "heroTitle": "Empowering Farmers with Knowledge",
+    "heroSubtitle": "Expert guidance on crops, diseases, fertilizers, and government schemes for a better harvest.",
+    "quickActions": "Quick Actions",
+    "featuredCrops": "Featured Crops",
+    "diagnose": "Diagnose Crop",
+    "viewSchemes": "Govt Schemes",
+    "readTips": "Farming Tips"
+  },
+  "common": {
+    "viewDetails": "View Details",
+    "startOver": "Start Over",
+    "back": "Back",
+    "next": "Next",
+    "noResults": "No results found",
+    "helpline": "Kisan Call Centre"
+  },
+  "crops": {
+    "season": "Season",
+    "soil": "Soil Type",
+    "irrigation": "Irrigation Notes",
+    "harvest": "Harvesting Tips"
+  }
+}

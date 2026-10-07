@@ -1,0 +1,82 @@
+[
+  {
+    "id": "okra",
+    "name": { "en": "Okra", "mr": "भेंडी" },
+    "season": { "en": "Kharif and Summer", "mr": "खरीप आणि उन्हाळी" },
+    "soilType": { "en": "Sandy loam to clay loam", "mr": "पाणथळ ते हलकी आणि मध्यम पोयट्याची जमीन" },
+    "irrigationNotes": { "en": "Irrigate every 5-7 days in summer, 10-12 days in winter.", "mr": "उन्हाळ्यात ५-७ दिवसांनी आणि हिवाळ्यात १०-१२ दिवसांनी पाणी द्यावे." },
+    "harvestingTips": { "en": "Harvest tender pods every 2-3 days to encourage more fruiting.", "mr": "अधिक फळधारणेसाठी दर २-३ दिवसांनी कोवळी फळे काढावीत." }
+  },
+  {
+    "id": "black-gram",
+    "name": { "en": "Black Gram", "mr": "उडीद" },
+    "season": { "en": "Kharif", "mr": "खरीप" },
+    "soilType": { "en": "Well-drained loam or sandy loam", "mr": "पाण्याचा निचरा होणारी पोयट्याची जमीन" },
+    "irrigationNotes": { "en": "Requires protective irrigation during flowering and pod development if rain fails.", "mr": "पाऊस नसल्यास फुले आणि शेंगा येताना पाणी द्यावे." },
+    "harvestingTips": { "en": "Harvest when 70-80% pods turn black/brown and leaves start shedding.", "mr": "७०-८०% शेंगा काळ्या/तपकिरी झाल्यावर आणि पाने गळू लागल्यावर काढणी करावी." }
+  },
+  {
+    "id": "tomato",
+    "name": { "en": "Tomato", "mr": "टोमॅटो" },
+    "season": { "en": "Kharif, Rabi, and Summer", "mr": "खरीप, रब्बी आणि उन्हाळी" },
+    "soilType": { "en": "Well-drained sandy loam", "mr": "पाण्याचा निचरा होणारी मध्यम जमीन" },
+    "irrigationNotes": { "en": "Drip irrigation preferred. Maintain even moisture to prevent fruit cracking.", "mr": "ठिबक सिंचन उत्तम. फळे तडकू नयेत म्हणून योग्य ओलावा ठेवावा." },
+    "harvestingTips": { "en": "Harvest at breaker or red ripe stage depending on market distance.", "mr": "बाजाराच्या अंतरावरून फळे लाल किंवा थोडी हिरवी असताना तोडावीत." }
+  },
+  {
+    "id": "potato",
+    "name": { "en": "Potato", "mr": "बटाटा" },
+    "season": { "en": "Rabi", "mr": "रब्बी" },
+    "soilType": { "en": "Loose, friable, well-drained sandy loam", "mr": "भुसभुशीत, पाण्याचा निचरा होणारी जमीन" },
+    "irrigationNotes": { "en": "Keep soil moist but not waterlogged. Stop watering 10 days before harvest.", "mr": "जमीन ओलसर ठेवा पण पाणी साचू देऊ नका. काढणीच्या १० दिवस आधी पाणी तोडावे." },
+    "harvestingTips": { "en": "Harvest when haulms turn yellow and fall. Cure tubers in shade for a few days.", "mr": "पाने पिवळी पडून सुकल्यावर काढणी करावी. बटाटे काही दिवस सावलीत सुकवावेत." }
+  },
+  {
+    "id": "onion",
+    "name": { "en": "Onion", "mr": "कांदा" },
+    "season": { "en": "Kharif, Late Kharif, Rabi", "mr": "खरीप, रांगडा आणि रब्बी" },
+    "soilType": { "en": "Deep, friable loam and alluvial soils", "mr": "खोल, भुसभुशीत आणि गाळाची जमीन" },
+    "irrigationNotes": { "en": "Frequent shallow irrigation. Stop irrigation 15 days before harvest.", "mr": "सतत थोडे-थोडे पाणी द्यावे. काढणीच्या १५ दिवस आधी पाणी थांबवावे." },
+    "harvestingTips": { "en": "Harvest when 50% tops fall over. Cure in field for 3-5 days.", "mr": "५०% पाने पडल्यावर काढणी करावी. शेतात ३-५ दिवस वाळवावे." }
+  },
+  {
+    "id": "chilli",
+    "name": { "en": "Chilli", "mr": "मिरची" },
+    "season": { "en": "Kharif, Rabi, Summer", "mr": "खरीप, रब्बी, उन्हाळी" },
+    "soilType": { "en": "Well-drained loam, rich in organic matter", "mr": "पाण्याचा निचरा होणारी सेंद्रिय खतयुक्त जमीन" },
+    "irrigationNotes": { "en": "Avoid waterlogging. Drip irrigation improves yield and reduces diseases.", "mr": "पाणी साचू देऊ नये. ठिबक सिंचनाने उत्पादन वाढते." },
+    "harvestingTips": { "en": "Pluck mature green for fresh market, fully red for dried spices.", "mr": "हिरवी मिरची ताज्या बाजारासाठी तर लाल मिरची मसाल्यासाठी काढावी." }
+  },
+  {
+    "id": "soybean",
+    "name": { "en": "Soybean", "mr": "सोयाबीन" },
+    "season": { "en": "Kharif", "mr": "खरीप" },
+    "soilType": { "en": "Well-drained fertile loam", "mr": "पाण्याचा निचरा होणारी सुपीक जमीन" },
+    "irrigationNotes": { "en": "Critical stages are flowering and pod filling. Avoid dry spells during this.", "mr": "फुले आणि शेंगा भरताना पाण्याची कमतरता भासू देऊ नये." },
+    "harvestingTips": { "en": "Harvest when leaves drop completely and pods turn brown.", "mr": "पाने गळून शेंगा तपकिरी झाल्यावर काढणी करावी." }
+  },
+  {
+    "id": "cotton",
+    "name": { "en": "Cotton", "mr": "कापूस" },
+    "season": { "en": "Kharif", "mr": "खरीप" },
+    "soilType": { "en": "Deep black cotton soils (Regur)", "mr": "कापसाची काळी आणि खोल जमीन" },
+    "irrigationNotes": { "en": "Irrigate during square formation and boll development if there is a dry spell.", "mr": "पावसाचा खंड पडल्यास पाते आणि बोंडे धरताना पाणी द्यावे." },
+    "harvestingTips": { "en": "Pick fully opened bolls in the morning when dew is gone.", "mr": "दव सुकल्यावर सकाळी पूर्ण उमललेली बोंडे वेचावीत." }
+  },
+  {
+    "id": "groundnut",
+    "name": { "en": "Groundnut", "mr": "भुईमूग" },
+    "season": { "en": "Kharif, Summer", "mr": "खरीप, उन्हाळी" },
+    "soilType": { "en": "Well-drained sandy loam", "mr": "पाण्याचा निचरा होणारी वाळूमिश्रित जमीन" },
+    "irrigationNotes": { "en": "Crucial during pegging and pod development. Do not overwater.", "mr": "आऱ्या सुटताना आणि शेंगा पोसताना पाणी द्यावे. जास्त पाणी देऊ नये." },
+    "harvestingTips": { "en": "Pull out plants when inner side of the shell turns dark in 75-80% pods.", "mr": "७५-८०% शेंगांच्या आतला भाग काळा झाल्यावर वनस्पती उपटून काढावी." }
+  },
+  {
+    "id": "wheat",
+    "name": { "en": "Wheat", "mr": "गहू" },
+    "season": { "en": "Rabi", "mr": "रब्बी" },
+    "soilType": { "en": "Medium to heavy soil", "mr": "मध्यम ते भारी जमीन" },
+    "irrigationNotes": { "en": "Crown root initiation (21 days after sowing) is the most critical stage.", "mr": "पेरणीनंतर २१ दिवसांनी (मुकुट मुळे येताना) पाणी देणे अत्यंत महत्त्वाचे आहे." },
+    "harvestingTips": { "en": "Harvest when grains become hard and moisture is below 20%.", "mr": "दाणे कडक झाल्यावर आणि ओलावा २०% पेक्षा कमी झाल्यावर काढणी करावी." }
+  }
+]

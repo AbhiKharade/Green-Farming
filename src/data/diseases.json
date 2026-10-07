@@ -1,0 +1,66 @@
+[
+  {
+    "id": "tomato-early-blight",
+    "cropId": "tomato",
+    "name": { "en": "Early Blight", "mr": "अर्ली ब्लाईट (लवकर येणारा करपा)" },
+    "symptoms": { "en": "Brown spots with concentric rings on lower leaves.", "mr": "खालच्या पानांवर वर्तुळाकार तपकिरी डाग." },
+    "causes": { "en": "Fungus favored by warm, humid weather.", "mr": "उबदार आणि दमट हवामानात वाढणारी बुरशी." },
+    "prevention": { "en": "Crop rotation, avoid overhead watering, remove infected debris.", "mr": "पिकांची फेरपालट, पानांवरून पाणी देणे टाळा, संक्रमित झाडे नष्ट करा." }
+  },
+  {
+    "id": "tomato-late-blight",
+    "cropId": "tomato",
+    "name": { "en": "Late Blight", "mr": "लेट ब्लाईट (उशिरा येणारा करपा)" },
+    "symptoms": { "en": "Water-soaked dark lesions on leaves and stems; white fungal growth in humidity.", "mr": "पानांवर आणि देठांवर पाण्यासारखे गडद डाग; दमट हवामानात पांढरी बुरशी." },
+    "causes": { "en": "Water mold favored by cool, wet weather.", "mr": "थंड आणि ओल्या हवामानात वाढणारी बुरशी." },
+    "prevention": { "en": "Use resistant varieties, ensure good air circulation, destroy cull piles.", "mr": "रोगप्रतिकारक जाती वापरा, हवा खेळती राहील याची काळजी घ्या." }
+  },
+  {
+    "id": "cotton-pink-bollworm",
+    "cropId": "cotton",
+    "name": { "en": "Pink Bollworm", "mr": "गुलाबी बोंडअळी" },
+    "symptoms": { "en": "Rosette flowers, holes in bolls, damaged seeds.", "mr": "गुलाबासारखी दिसणारी फुले, बोंडांना छिद्रे, खराब बिया." },
+    "causes": { "en": "Larvae of the pink bollworm moth.", "mr": "गुलाबी बोंडअळीच्या पतंगाची अळी." },
+    "prevention": { "en": "Pheromone traps, timely sowing, crop rotation, deep summer ploughing.", "mr": "कामगंध सापळे, वेळेवर पेरणी, उन्हाळ्यात खोल नांगरट." }
+  },
+  {
+    "id": "soybean-yellow-mosaic",
+    "cropId": "soybean",
+    "name": { "en": "Yellow Mosaic Virus", "mr": "पिवळा मोझॅक (केवडा)" },
+    "symptoms": { "en": "Yellowing and mottling of leaves, stunted growth.", "mr": "पाने पिवळी पडणे, झाडाची वाढ खुंटणे." },
+    "causes": { "en": "Virus transmitted by whiteflies.", "mr": "पांढऱ्या माशीद्वारे पसरणारा विषाणू." },
+    "prevention": { "en": "Control whitefly population, use resistant varieties, rogue out infected plants.", "mr": "पांढऱ्या माशीचे नियंत्रण, रोगप्रतिकारक जातींचा वापर, संक्रमित झाडे उपटणे." }
+  },
+  {
+    "id": "onion-purple-blotch",
+    "cropId": "onion",
+    "name": { "en": "Purple Blotch", "mr": "जांभळा करपा" },
+    "symptoms": { "en": "Small, water-soaked lesions turning brown/purple with concentric rings.", "mr": "पानांवर पांढरट-तपकिरी रंगाचे डाग जे नंतर जांभळे होतात." },
+    "causes": { "en": "Fungus, thriving in high humidity.", "mr": "जास्त आर्द्रतेमध्ये वाढणारी बुरशी." },
+    "prevention": { "en": "Proper drainage, wider spacing, crop rotation with non-host crops.", "mr": "पाण्याचा उत्तम निचरा, पिकांमधील योग्य अंतर, फेरपालट." }
+  },
+  {
+    "id": "wheat-rust",
+    "cropId": "wheat",
+    "name": { "en": "Wheat Rust", "mr": "गव्हावरील तांबेरा" },
+    "symptoms": { "en": "Yellow, brown, or black pustules on leaves and stems.", "mr": "पाने आणि देठावर पिवळे, तपकिरी किंवा काळे फोड (पुळ्या)." },
+    "causes": { "en": "Fungal pathogens carried by wind.", "mr": "वाऱ्याद्वारे पसरणारी बुरशी." },
+    "prevention": { "en": "Grow rust-resistant varieties, sow early, eradicate volunteer wheat plants.", "mr": "तांबेरा-प्रतिकारक जातींची लागवड, लवकर पेरणी." }
+  },
+  {
+    "id": "okra-ymv",
+    "cropId": "okra",
+    "name": { "en": "Yellow Vein Mosaic Virus", "mr": "पिवळा शिरा मोझॅक" },
+    "symptoms": { "en": "Yellowing of the entire network of veins in the leaf blade.", "mr": "पानांच्या शिरा पिवळ्या पडतात आणि झाड खुजे राहते." },
+    "causes": { "en": "Virus transmitted by whiteflies.", "mr": "पांढऱ्या माशीद्वारे पसरणारा विषाणू." },
+    "prevention": { "en": "Resistant varieties, vector (whitefly) management.", "mr": "रोगप्रतिकारक जाती, पांढऱ्या माशीचे नियंत्रण." }
+  },
+  {
+    "id": "potato-late-blight",
+    "cropId": "potato",
+    "name": { "en": "Late Blight", "mr": "लेट ब्लाईट (उशिरा येणारा करपा)" },
+    "symptoms": { "en": "Water-soaked lesions on leaves, white fungal growth on undersides.", "mr": "पानांवर पाण्याचे डाग, खालच्या बाजूला पांढरी बुरशी." },
+    "causes": { "en": "Water mold favored by cool, wet weather.", "mr": "थंड आणि ओल्या हवामानात वाढणारी बुरशी." },
+    "prevention": { "en": "Use certified seed, ensure good drainage, destroy cull potatoes.", "mr": "प्रमाणित बियाणे वापरा, पाण्याचा चांगला निचरा करा." }
+  }
+]

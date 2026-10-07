@@ -1,0 +1,32 @@
+[
+  {
+    "id": "water-conservation",
+    "title": { "en": "Water Conservation", "mr": "जलसंधारण" },
+    "description": { "en": "Use drip or sprinkler irrigation. Collect rainwater in farm ponds to ensure water availability during dry spells.", "mr": "ठिबक किंवा तुषार सिंचनाचा वापर करा. पावसाळ्यातील कोरड्या दिवसांसाठी शेततळ्यात पावसाचे पाणी साठवा." }
+  },
+  {
+    "id": "compost",
+    "title": { "en": "Compost & Organic Matter", "mr": "कंपोस्ट आणि सेंद्रिय खत" },
+    "description": { "en": "Incorporate farm yard manure (FYM) or vermicompost into the soil to improve its water-holding capacity and fertility.", "mr": "मातीची सुपीकता आणि पाणी धरून ठेवण्याची क्षमता वाढवण्यासाठी शेणखत किंवा गांडूळ खत जमिनीत मिसळा." }
+  },
+  {
+    "id": "mulching",
+    "title": { "en": "Mulching", "mr": "आच्छादन (मल्चिंग)" },
+    "description": { "en": "Cover the soil with organic residue or plastic mulch to reduce evaporation, suppress weeds, and regulate soil temperature.", "mr": "पाण्याचे बाष्पीभवन रोखण्यासाठी, तण नियंत्रणासाठी आणि जमिनीचे तापमान नियंत्रित ठेवण्यासाठी आच्छादनाचा वापर करा." }
+  },
+  {
+    "id": "crop-rotation",
+    "title": { "en": "Crop Rotation", "mr": "पिकांची फेरपालट" },
+    "description": { "en": "Rotate crops with legumes (like soybeans or gram) to naturally fix nitrogen in the soil and break pest cycles.", "mr": "जमिनीत नैसर्गिकरित्या नत्र (नायट्रोजन) वाढवण्यासाठी आणि किडींचे चक्र खंडित करण्यासाठी कडधान्यांची (उदा. सोयाबीन, हरभरा) फेरपालट करा." }
+  },
+  {
+    "id": "field-sanitation",
+    "title": { "en": "Field Sanitation", "mr": "शेतातील स्वच्छता" },
+    "description": { "en": "Remove and burn crop residues and infected plant parts after harvest to prevent diseases from overwintering.", "mr": "काढणीनंतर पिकांचे अवशेष आणि रोगग्रस्त भाग गोळा करून नष्ट करा जेणेकरून रोगांचा प्रसार टळेल." }
+  },
+  {
+    "id": "ipm",
+    "title": { "en": "Integrated Pest Management (IPM)", "mr": "एकात्मिक कीड व्यवस्थापन (IPM)" },
+    "description": { "en": "Use pheromone traps, yellow sticky cards, and beneficial insects like ladybugs before resorting to chemicals.", "mr": "रासायनिक कीटकनाशकांचा वापर करण्यापूर्वी कामगंध सापळे, पिवळे चिकट सापळे आणि मित्रकीटकांचा (उदा. लेडीबग) वापर करा." }
+  }
+]
