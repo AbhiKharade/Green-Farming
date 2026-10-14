@@ -1,4 +1,3 @@
-import React from 'react';
 import { Droplets, AlertTriangle, CheckCircle, Search } from 'lucide-react';
 import { useLanguage } from '../hooks/useLanguage';
 

@@ -1,9 +1,8 @@
-import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { useLanguage } from '../hooks/useLanguage';
 import { getLocalizedText } from '../utils/i18n';
 import cropsData from '../data/crops.json';
-import { ArrowLeft, Droplets, Sun, Scissors, Layers } from 'lucide-react';
+import { ArrowLeft, Droplets, Scissors, Layers } from 'lucide-react';
 
 export const CropDetail = () => {
   const { id } = useParams<{ id: string }>();

@@ -1,9 +1,6 @@
-import React from 'react';
-import { useLanguage } from '../hooks/useLanguage';
 import { PhoneCall } from 'lucide-react';
 
 export const Footer = () => {
-  const { t } = useLanguage();
 
   return (
     <footer className="bg-gray-100 dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800 mt-12">

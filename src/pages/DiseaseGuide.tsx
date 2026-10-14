@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useLanguage } from '../hooks/useLanguage';
 import { getLocalizedText } from '../utils/i18n';
 import cropsData from '../data/crops.json';
 import diseasesData from '../data/diseases.json';
-import { Leaf, Bug, AlertTriangle, ShieldCheck, Sprout, Building, ArrowLeft, ArrowRight, RotateCcw } from 'lucide-react';
+import { Leaf, Bug, AlertTriangle, ShieldCheck, Sprout, Building, ArrowLeft, ArrowRight, RotateCcw, PhoneCall } from 'lucide-react';
 
 export const DiseaseGuide = () => {
   const { lang, t } = useLanguage();

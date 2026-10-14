@@ -1,4 +1,3 @@
-import React from 'react';
 import { useLanguage } from '../hooks/useLanguage';
 import { getLocalizedText } from '../utils/i18n';
 import tipsData from '../data/tips.json';

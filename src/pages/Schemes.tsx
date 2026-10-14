@@ -1,4 +1,3 @@
-import React from 'react';
 import { useLanguage } from '../hooks/useLanguage';
 import { getLocalizedText } from '../utils/i18n';
 import schemesData from '../data/schemes.json';

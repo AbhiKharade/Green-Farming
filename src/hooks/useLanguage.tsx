@@ -1,4 +1,4 @@
-import { useState, useEffect, createContext, useContext } from 'react';
+import { useState, createContext, useContext, type ReactNode } from 'react';
 
 type Language = 'en' | 'mr';
 
@@ -15,7 +15,7 @@ import mr from '../data/i18n/mr.json';
 
 const translations = { en, mr };
 
-export const LanguageProvider = ({ children }: { children: React.ReactNode }) => {
+export const LanguageProvider = ({ children }: { children: ReactNode }) => {
   const [lang, setLangState] = useState<Language>(() => {
     const saved = localStorage.getItem('app_lang');
     return (saved === 'en' || saved === 'mr') ? saved : 'en';

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { Leaf, Stethoscope, Droplets, Landmark, BookOpen, PhoneCall } from 'lucide-react';
 import { useLanguage } from '../hooks/useLanguage';
