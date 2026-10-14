@@ -71,6 +71,23 @@ export const CropDetail = () => {
              </div>
           </div>
         </div>
+
+        <div className="bg-emerald-50/60 dark:bg-emerald-950/20 p-6 border-t border-gray-200 dark:border-gray-700 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+          <div>
+            <h4 className="font-bold text-gray-900 dark:text-white text-base">
+              Fertilizer & Plant Health for {getLocalizedText(crop.name, lang)}
+            </h4>
+            <p className="text-sm text-gray-600 dark:text-gray-400">
+              Explore stage-by-stage fertilizer dosages and nutrient remedies for diseases.
+            </p>
+          </div>
+          <Link
+            to={`/fertilizer-guide?crop=${crop.id}`}
+            className="px-5 py-2.5 bg-primary hover:bg-primary-hover text-white rounded-xl font-bold text-sm shadow inline-flex items-center gap-2 transition-all self-start sm:self-auto touch-target"
+          >
+            <Droplets className="w-4 h-4" /> {t('nav.fertilizerGuide')}
+          </Link>
+        </div>
       </div>
     </div>
   );

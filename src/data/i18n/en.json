@@ -31,5 +31,23 @@
     "soil": "Soil Type",
     "irrigation": "Irrigation Notes",
     "harvest": "Harvesting Tips"
+  },
+  "fertilizer": {
+    "title": "Fertilizer Guide",
+    "subtitle": "Search plants to get tailored fertilizer schedules and nutrient-based remedies for diseases and deficiencies.",
+    "searchPlant": "Search for a plant (e.g. Tomato, Onion, Cotton...)",
+    "searchCondition": "Filter by disease or symptom (e.g. Blight, Rot, Curl...)",
+    "selectPlant": "Or select a plant below:",
+    "allPlants": "All Plants",
+    "diseaseNutritionTab": "Disease & Deficiency Solutions",
+    "scheduleTab": "Growth Stage Fertilizer Schedule",
+    "safetyTab": "Soil Health & Safety Rules",
+    "recommendedFertilizer": "Recommended Fertilizer & Nutrients",
+    "dosage": "Dosage & Application Method",
+    "defenseRole": "Role in Defense & Healing",
+    "precaution": "Important Precaution",
+    "symptoms": "Symptoms & Cause",
+    "npkStandard": "General NPK Recommendation",
+    "noMatch": "No matching fertilizers or conditions found for this search."
   }
 }

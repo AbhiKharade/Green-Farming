@@ -5,6 +5,7 @@ import { useLanguage } from '../hooks/useLanguage';
 import cropsData from '../data/crops.json';
 import diseasesData from '../data/diseases.json';
 import schemesData from '../data/schemes.json';
+import fertilizersData from '../data/fertilizers.json';
 import { getLocalizedText } from '../utils/i18n';
 
 export const GlobalSearch = () => {
@@ -23,13 +24,27 @@ export const GlobalSearch = () => {
       const cropRes = cropsData.filter(c => getLocalizedText(c.name, lang).toLowerCase().includes(q))
         .map(c => ({ type: 'crop', id: c.id, label: getLocalizedText(c.name, lang), url: `/crops/${c.id}` }));
       
+      const fertRes = fertilizersData.filter(f => 
+          getLocalizedText(f.name, lang).toLowerCase().includes(q) ||
+          f.diseaseConditions.some(dc => 
+            getLocalizedText(dc.title, lang).toLowerCase().includes(q) ||
+            getLocalizedText(dc.recommendedFertilizer, lang).toLowerCase().includes(q)
+          )
+        )
+        .map(f => ({
+          type: 'fertilizer',
+          id: f.cropId,
+          label: `${getLocalizedText(f.name, lang)} (${t('nav.fertilizerGuide')})`,
+          url: `/fertilizer-guide?crop=${f.cropId}`
+        }));
+
       const diseaseRes = diseasesData.filter(d => getLocalizedText(d.name, lang).toLowerCase().includes(q))
         .map(d => ({ type: 'disease', id: d.id, label: getLocalizedText(d.name, lang), url: `/disease-guide` }));
         
       const schemeRes = schemesData.filter(s => getLocalizedText(s.name, lang).toLowerCase().includes(q))
         .map(s => ({ type: 'scheme', id: s.id, label: getLocalizedText(s.name, lang), url: `/schemes` }));
 
-      setResults([...cropRes, ...diseaseRes, ...schemeRes].slice(0, 5));
+      setResults([...cropRes, ...fertRes, ...diseaseRes, ...schemeRes].slice(0, 6));
       setIsOpen(true);
     } else {
       setResults([]);

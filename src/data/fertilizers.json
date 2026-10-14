@@ -1,0 +1,932 @@
+[
+  {
+    "cropId": "tomato",
+    "name": { "en": "Tomato", "mr": "टोमॅटो" },
+    "icon": "🍅",
+    "npkRecommendation": "100:50:50 kg N:P:K per hectare",
+    "overview": {
+      "en": "Tomatoes have high nutrient demands, particularly for Potassium (K) during fruiting and Calcium (Ca) for skin firmness and disease prevention.",
+      "mr": "टोमॅटो पिकाला फळधारणेच्या काळात पोटॅश (K) आणि फळांच्या मजबुतीसाठी कॅल्शियमची (Ca) विशेष गरज असते."
+    },
+    "diseaseConditions": [
+      {
+        "id": "tomato-blossom-end-rot",
+        "title": { "en": "Blossom End Rot (Black Bottom Rot)", "mr": "ब्लॉसम एंड रॉट (फळांचा खालचा भाग काळा पडणे)" },
+        "causeType": "deficiency",
+        "symptoms": {
+          "en": "Water-soaked dark sunken leathery patch at the blossom end of developing green and red fruits.",
+          "mr": "हिरव्या व पिकणाऱ्या टोमॅटोच्या खालच्या भागावर काळा, चपटा आणि सुकलेला डाग पडतो."
+        },
+        "recommendedFertilizer": {
+          "en": "Calcium Nitrate (15.5-0-0 + 18.8% Ca) + Boron 20%",
+          "mr": "कॅल्शियम नायट्रेट + बोरॉन २०%"
+        },
+        "dosage": {
+          "en": "Foliar spray: Calcium Nitrate @ 2.5 g/L + Boron @ 1 g/L of water at 10-12 day intervals during flowering and early fruit set.",
+          "mr": "फवारणी: कॅल्शियम नायट्रेट २.५ ग्रॅम + बोरॉन १ ग्रॅम प्रति लिटर पाण्यात मिसळून फुले व लहान फळे असताना दर १०-१२ दिवसांनी फवारावे."
+        },
+        "defenseRole": {
+          "en": "Calcium strengthens cell walls and prevents tissue breakdown under heat and moisture fluctuations. Boron facilitates calcium transport into developing fruit tips.",
+          "mr": "कॅल्शियम पेशींच्या भिंती मजबूत करते ज्यामुळे फळे सडणे थांबते. बोरॉनमुळे कॅल्शियम फळांच्या टोकापर्यंत वेगाने पोहोचते."
+        },
+        "precaution": {
+          "en": "Do not mix Calcium Nitrate with Sulphate or Phosphate fertilizers (like DAP or SOP) in the same spray tank to avoid precipitation.",
+          "mr": "कॅल्शियम नायट्रेट फॉस्फेट किंवा सल्फेटयुक्त खतांसोबत (उदा. DAP, 0:0:50) टाकीमध्ये मिसळू नये."
+        }
+      },
+      {
+        "id": "tomato-early-late-blight-resistance",
+        "title": { "en": "Blight Tolerance (Early & Late Blight Defense)", "mr": "करपा रोग प्रतिकारशक्ती (अर्ली व लेट ब्लाईट)" },
+        "causeType": "disease_defense",
+        "symptoms": {
+          "en": "Concentric dark brown leaf spots, foliage yellowing, water-soaked brown stem lesions.",
+          "mr": "पानांवर वर्तुळाकार तपकिरी डाग, पाने जळणे आणि देठांवर काळपट डाग."
+        },
+        "recommendedFertilizer": {
+          "en": "Potassium Sulphate (0:0:50 + 17.5% S) & Silicon-based nutrient spray",
+          "mr": "पोटॅशियम सल्फेट (0:0:50 + १७.५% सल्फर) आणि सिलिकॉन खत"
+        },
+        "dosage": {
+          "en": "Foliar spray: 0:0:50 @ 4-5 g/L of water during active vegetative and early flowering. Soil: 25 kg/acre MOP in split doses.",
+          "mr": "फवारणी: 0:0:50 ४ ते ५ ग्रॅम प्रति लिटर पाणी. जमिनीत २५ किलो एमओपी (पोटॅश) विभागून द्यावे."
+        },
+        "defenseRole": {
+          "en": "Potassium thickens the leaf epidermis and strengthens cell walls, creating a physical barrier against fungal germ tubes. Avoid excess Urea/Nitrogen which produces watery, succulent leaves highly vulnerable to fungal blight.",
+          "mr": "पोटॅशमुळे पानांची त्वचा जाड होते, ज्यामुळे बुरशीचे धागे पानांमध्ये सहज प्रवेश करू शकत नाहीत. अति युरिया देणे टाळा कारण त्यामुळे झाडे मऊ होऊन करप्याला बळी पडतात."
+        },
+        "precaution": {
+          "en": "Fertilizers boost plant immunity but are not a substitute for fungicides. Use certified copper or mancozeb fungicides along with proper sanitation.",
+          "mr": "खतांमुळे प्रतिकारशक्ती वाढते पण हे बुरशीनाशकांचा पर्याय नाही. रोग जास्त असल्यास योग्य बुरशीनाशकाची शिफारस कृषी तज्ज्ञांकडून घ्यावी."
+        }
+      },
+      {
+        "id": "tomato-leaf-curl-stress",
+        "title": { "en": "Leaf Curl Recovery & Micronutrient Chlorosis", "mr": "पाने आकसणे व सूक्ष्मअन्नद्रव्य कमतरता (पिवळेपणा)" },
+        "causeType": "deficiency",
+        "symptoms": {
+          "en": "Upward curling of leaves, interveinal yellowing (chlorosis), stunted bush-like growth.",
+          "mr": "पाने वरच्या बाजूला वळणे (बोकड्या), शिरांमधील भाग पिवळा पडणे आणि झाडाची वाढ खुंटणे."
+        },
+        "recommendedFertilizer": {
+          "en": "Chelated Micronutrient Grade IV (Zinc, Ferrous, Manganese, Boron) + Magnesium Sulphate",
+          "mr": "चिलेटेड सूक्ष्मअन्नद्रव्ये (झिंक, फेरस, बोरॉन) + मॅग्नेशियम सल्फेट"
+        },
+        "dosage": {
+          "en": "Foliar spray: Micronutrient mixture @ 1.5 - 2 g/L + Magnesium Sulphate @ 3 g/L at 25 and 45 days after transplanting.",
+          "mr": "फवारणी: मायक्रोन्यूट्रियंट मिश्रण १.५ ते २ ग्रॅम + मॅग्नेशियम सल्फेट ३ ग्रॅम प्रति लिटर पुनर्लागवडीनंतर २५ व ४५ दिवसांनी."
+        },
+        "defenseRole": {
+          "en": "Restores chlorophyll synthesis and enzymes. Strong healthy plants withstand vector (whitefly) stress far better than malnourished plants.",
+          "mr": "हरितद्रव्य (क्लोरोफिल) निर्मिती पूर्ववत होते आणि पांढऱ्या माशीचा प्रादुर्भाव झाल्यास झाडाला तग धरण्यास मदत होते."
+        },
+        "precaution": {
+          "en": "Spray in early morning or late evening when stomata are receptive and weather is cool.",
+          "mr": "सकाळी लवकर किंवा संध्याकाळी ऊन कमी झाल्यावर फवारणी करावी."
+        }
+      }
+    ],
+    "growthStages": [
+      {
+        "stage": { "en": "Basal (Transplanting)", "mr": "लागवडीचा वेळ (मूळ खत)" },
+        "timing": { "en": "At land preparation / transplanting", "mr": "जमीन तयार करताना / पुनर्लागवडीवेळी" },
+        "fertilizers": {
+          "en": "Well-rotted FYM (10 tons/acre) + DAP 50 kg + MOP 25 kg + Neem Cake 100 kg to prevent soil-borne pests.",
+          "mr": "चांगले कुजलेले शेणखत १० टन/एकर + डीएपी ५० किलो + पोटॅश २५ किलो + निंबोळी पेंड १०० किलो (जमिनीतील कीड व बुरशी नियंत्रणासाठी)."
+        }
+      },
+      {
+        "stage": { "en": "Vegetative Stage", "mr": "शाकीय वाढीची अवस्था" },
+        "timing": { "en": "20 to 35 days after transplanting", "mr": "लागवडीनंतर २० ते ३५ दिवस" },
+        "fertilizers": {
+          "en": "Urea 25 kg/acre (or 19:19:19 @ 5 g/L foliar spray / drip) + Micronutrient spray.",
+          "mr": "युरिया २५ किलो प्रति एकर (किंवा १९:१९:१९ ५ ग्रॅम/लिटर ठिबकद्वारे/फवारणी) + सूक्ष्मअन्नद्रव्ये."
+        }
+      },
+      {
+        "stage": { "en": "Flowering & Fruit Setting", "mr": "फुलधारणा व फळधारणा अवस्था" },
+        "timing": { "en": "40 to 65 days after transplanting", "mr": "लागवडीनंतर ४० ते ६५ दिवस" },
+        "fertilizers": {
+          "en": "12:61:00 (MAP) @ 3 g/L + 0:52:34 (MKP) @ 4 g/L + Boron 20% @ 1 g/L to stimulate maximum flowers and reduce flower drop.",
+          "mr": "१२:६१:०० ३ ग्रॅम/लिटर + ०:५२:३४ ४ ग्रॅम/लिटर + बोरॉन २०% १ ग्रॅम/लिटर (फुलगळ रोखण्यासाठी व जास्तीत जास्त फळधारणेसाठी)."
+        }
+      },
+      {
+        "stage": { "en": "Fruit Enlargement & Harvesting", "mr": "फळे फुगवण व काढणी" },
+        "timing": { "en": "70 to 110 days after transplanting", "mr": "लागवडीनंतर ७० ते ११० दिवस" },
+        "fertilizers": {
+          "en": "13:0:45 (Potassium Nitrate) @ 5 g/L + Calcium Nitrate @ 2.5 g/L for fruit weight, color shine, and longer shelf life.",
+          "mr": "१३:०:४५ (पोटॅशियम नायट्रेट) ५ ग्रॅम/लिटर + कॅल्शियम नायट्रेट २.५ ग्रॅम/लिटर (फळांचे वजन, चकाकी आणि टिकाऊपणा वाढवण्यासाठी)."
+        }
+      }
+    ]
+  },
+  {
+    "cropId": "onion",
+    "name": { "en": "Onion", "mr": "कांदा" },
+    "icon": "🧅",
+    "npkRecommendation": "100:50:50 N:P:K + 30 kg Sulphur per hectare",
+    "overview": {
+      "en": "Onions are shallow-rooted crops with high sulphur and potash requirements for bulb firmness, pungent flavor, and fungal resistance.",
+      "mr": "कांद्याची मुळे उथळ असतात; कांद्याचा आकार, वजन, तिखटपणा आणि बुरशीपासून संरक्षणासाठी गंधक (सल्फर) व पोटॅश अत्यंत महत्त्वाचे आहेत."
+    },
+    "diseaseConditions": [
+      {
+        "id": "onion-purple-blotch-defense",
+        "title": { "en": "Purple Blotch & Leaf Blight Defense", "mr": "जांभळा करपा व पान सुकणे प्रतिकार" },
+        "causeType": "disease_defense",
+        "symptoms": {
+          "en": "Small sunken white-centered purplish spots on leaves; leaves collapse and dry up prematurely.",
+          "mr": "पानांवर जांभळट रंगाचे लहान डाग पडतात जे पसरून संपूर्ण पान करपून वाळते."
+        },
+        "recommendedFertilizer": {
+          "en": "Sulphur 80% WDG + Potassium Sulphate (0:0:50)",
+          "mr": "सल्फर ८०% डब्ल्यूडीजी (गंधक) + पोटॅशियम सल्फेट (0:0:50)"
+        },
+        "dosage": {
+          "en": "Foliar spray: Sulphur 80% WDG @ 2.5 g/L + 0:0:50 @ 4 g/L. Soil: Bensulf / Elemental Sulphur @ 10 kg/acre at sowing/transplanting.",
+          "mr": "फवारणी: सल्फर ८०% २.५ ग्रॅम + 0:0:50 ४ ग्रॅम प्रति लिटर पाणी. जमिनीत लागवडीवेळी बेनसल्फ/सल्फर १० किलो प्रति एकर द्यावे."
+        },
+        "defenseRole": {
+          "en": "Sulphur acts as both an essential secondary nutrient and a natural preventive contact fungicide against Alternaria fungus and mites. Potassium hardens leaf cell walls.",
+          "mr": "सल्फर हे अन्नद्रव्यासोबतच बुरशी व कोळी नियंत्रक म्हणून काम करते. पोटॅशमुळे पानांमधील कणखरपणा वाढून करप्याचा प्रसार रोखला जातो."
+        },
+        "precaution": {
+          "en": "Always use a sticker/spreader agent (surfactant) because onion leaves are waxy and spray drops roll off easily.",
+          "mr": "कांद्याच्या पानांवर मेणासारखा थर असल्याने फवारणी करताना नेहमी स्टिकर (स्प्रेडर) वापरावे."
+        }
+      },
+      {
+        "id": "onion-tip-burn",
+        "title": { "en": "Tip Burn & Yellowing (Nutrient Imbalance)", "mr": "पानांचे शेंडे पिवळे पडून जळणे (टीप बर्न)" },
+        "causeType": "deficiency",
+        "symptoms": {
+          "en": "Drying and scorching of upper leaf tips moving downwards toward the bulb.",
+          "mr": "कांद्याच्या पातीचे वरचे शेंडे पिवळे पडून खालीपर्यंत वाळत जाणे."
+        },
+        "recommendedFertilizer": {
+          "en": "Potassium Nitrate (13:0:45) + Zinc Sulphate (21%) foliar spray",
+          "mr": "पोटॅशियम नायट्रेट (१३:०:४५) + झिंक सल्फेट (२१%)"
+        },
+        "dosage": {
+          "en": "Foliar spray: 13:0:45 @ 5 g/L + Zinc Sulphate @ 1.5 g/L at 40-50 days after transplanting.",
+          "mr": "फवारणी: १३:०:४५ ५ ग्रॅम + झिंक सल्फेट १.५ ग्रॅम प्रति लिटर पाणी लागवडीनंतर ४०-५० दिवसांनी फवारावे."
+        },
+        "defenseRole": {
+          "en": "Overcomes potassium-induced moisture stress and zinc deficit, maintaining osmotic balance in dry sunny weather.",
+          "mr": "अति उष्ण हवामान व पाण्याचा ताण असताना पात्यांमध्ये ओलावा व अन्नद्रव्ये टिकवून ठेवण्यास मदत करते."
+        },
+        "precaution": {
+          "en": "Ensure soil has adequate moisture before spraying. Do not spray during peak midday heat.",
+          "mr": "जमिनीत पुरेसा ओलावा असतानाच फवारणी करावी, भर दुपारी फवारणी टाळावी."
+        }
+      },
+      {
+        "id": "onion-basal-rot-prevention",
+        "title": { "en": "Basal Rot & Damping Off Biological Protection", "mr": "मुळकुज / कांदा सडणे जैविक प्रतिबंध" },
+        "causeType": "disease_defense",
+        "symptoms": {
+          "en": "Roots rot and turn pinkish/brown; base of the bulb softens and decays in the field and storage.",
+          "mr": "मुळे सडतात आणि कांद्याची खालची चकती मऊ पडून कांदा शेतात व साठवणुकीत सडतो."
+        },
+        "recommendedFertilizer": {
+          "en": "Trichoderma harzianum enriched Neem Cake & Well-decomposed FYM",
+          "mr": "ट्रायकोडर्मा व्हिरीडीयुक्त निंबोळी पेंड आणि कुजलेले शेणखत"
+        },
+        "dosage": {
+          "en": "Soil application: 2 kg Trichoderma mixed in 100 kg Neem cake + 500 kg FYM, kept in shade for 7 days, applied per acre at transplanting.",
+          "mr": "जमिनीत वापर: २ किलो ट्रायकोडर्मा १०० किलो निंबोळी पेंड व ५०० किलो शेणखतात मिसळून सावलीत ७ दिवस मुरवून एकरी टाकावे."
+        },
+        "defenseRole": {
+          "en": "Suppresses Fusarium soil pathogens organically while Neem cake releases natural azadirachtin to destroy harmful nematodes and grubs.",
+          "mr": "ट्रायकोडर्मा जमिनीत उपयुक्त बुरशी वाढवून सड रोगाची बुरशी नष्ट करतो आणि निंबोळी पेंड मुळांतील कीटकांना रोखते."
+        },
+        "precaution": {
+          "en": "Do not apply chemical fungicides to the soil for 10-15 days after applying bio-agents.",
+          "mr": "जैविक खते/ट्रायकोडर्मा वापरल्यानंतर १०-१५ दिवस जमिनीत रासायनिक बुरशीनाशके सोडू नयेत."
+        }
+      }
+    ],
+    "growthStages": [
+      {
+        "stage": { "en": "Basal Application", "mr": "लागवडीचा वेळ (मूळ डोस)" },
+        "timing": { "en": "At transplanting", "mr": "रोपे लावताना" },
+        "fertilizers": {
+          "en": "Single Super Phosphate (SSP) 100 kg + MOP 30 kg + Urea 25 kg + Sulphur 10 kg + Neem Cake 50 kg per acre.",
+          "mr": "सिंगल सुपर फॉस्फेट (एसएसपी) १०० किलो + पोटॅश ३० किलो + युरिया २५ किलो + गंधक १० किलो + निंबोळी पेंड ५० किलो प्रति एकर."
+        }
+      },
+      {
+        "stage": { "en": "Vegetative Growth", "mr": "पातीची वाढ" },
+        "timing": { "en": "25 to 45 days after transplanting", "mr": "लागवडीनंतर २५ ते ४५ दिवस" },
+        "fertilizers": {
+          "en": "Top-dress Urea 25 kg/acre in two splits (day 30 and day 45). Foliar spray of 19:19:19 @ 5 g/L with micronutrients.",
+          "mr": "युरिया २५ किलो प्रति एकर (३० व्या व ४५ व्या दिवशी विभागून). १९:१९:१९ ५ ग्रॅम/लिटर + सूक्ष्मअन्नद्रव्य फवारणी."
+        }
+      },
+      {
+        "stage": { "en": "Bulb Development & Sizing", "mr": "कांदा पोसण्याची अवस्था" },
+        "timing": { "en": "55 to 75 days after transplanting", "mr": "लागवडीनंतर ५५ ते ७५ दिवस" },
+        "fertilizers": {
+          "en": "0:52:34 (MKP) @ 4 g/L + 13:0:45 @ 5 g/L foliar spray. Stop all Nitrogen (Urea) completely to prevent thick-necked onions and storage rotting.",
+          "mr": "०:५२:३४ ४ ग्रॅम/लिटर + १३:०:४५ ५ ग्रॅम/लिटर फवारणी. युरिया देणे पूर्णपणे थांबवा जेणेकरून कांदा साठवणुकीत टिकेल आणि डेंगळे येणार नाहीत."
+        }
+      }
+    ]
+  },
+  {
+    "cropId": "potato",
+    "name": { "en": "Potato", "mr": "बटाटा" },
+    "icon": "🥔",
+    "npkRecommendation": "120:60:100 kg N:P:K per hectare",
+    "overview": {
+      "en": "Potatoes are heavy feeders needing ample Potassium for tuber formation, starch synthesis, and resistance to late blight and skin disorders.",
+      "mr": "बटाटा पिकाला कंद फुगवण, पिष्टमय पदार्थांची निर्मिती आणि करपा रोगापासून संरक्षणासाठी पोटॅशची जास्त आवश्यकता असते."
+    },
+    "diseaseConditions": [
+      {
+        "id": "potato-late-blight-defense",
+        "title": { "en": "Late Blight Defense & Tuber Rot Prevention", "mr": "लेट ब्लाईट (उशिरा येणारा करपा) व कंद सड प्रतिबंध" },
+        "causeType": "disease_defense",
+        "symptoms": {
+          "en": "Water-soaked lesions on foliage, whitish fungal ring underneath leaves, brown dry rotting inside tubers.",
+          "mr": "पानांवर काळपट जळाल्यासारखे डाग, दमट हवेत पांढरी बुरशी आणि कंद कापल्यावर आतून तपकिरी सड."
+        },
+        "recommendedFertilizer": {
+          "en": "Sulphate of Potash (0:0:50) + Calcium Nitrate + Silicon fertilizer",
+          "mr": "पोटॅशियम सल्फेट (0:0:50) + कॅल्शियम नायट्रेट + सिलिकॉन"
+        },
+        "dosage": {
+          "en": "Foliar spray: 0:0:50 @ 5 g/L + Silicon liquid @ 1.5 ml/L during active canopy development. Soil: Calcium Nitrate 15 kg/acre during earthing up.",
+          "mr": "फवारणी: 0:0:50 ५ ग्रॅम + सिलिकॉन १.५ मिली प्रति लिटर. भरणी करताना कॅल्शियम नायट्रेट १५ किलो प्रति एकर टाकावे."
+        },
+        "defenseRole": {
+          "en": "Excess Nitrogen creates dense watery foliage easily infected by Phytophthora zoospores. High Potassium and Calcium harden the leaf cuticle and tuber periderm against infection.",
+          "mr": "अति युरियामुळे पाने मऊ होऊन बुरशीचा हल्ला लगेच होतो. पोटॅश व कॅल्शियममुळे बटाट्याची साल व पाने कडक होतात."
+        },
+        "precaution": {
+          "en": "Never apply Nitrogen fertilizers after 45 days of planting. In damp cloudy weather, combine preventive copper spray.",
+          "mr": "लागवडीनंतर ४५ दिवसांनी युरिया कधीही देऊ नका. ढगाळ हवामानात प्रतिबंधात्मक कॉपर बुरशीनाशक वापरावे."
+        }
+      },
+      {
+        "id": "potato-hollow-heart",
+        "title": { "en": "Hollow Heart & Internal Browning (Nutrient Deficiency)", "mr": "हॉलो हार्ट (बटाटा आतून पोकळ व तपकिरी होणे)" },
+        "causeType": "deficiency",
+        "symptoms": {
+          "en": "Star-shaped cavity or brown discolored dead cells in the core of large potato tubers.",
+          "mr": "मोठ्या बटाट्यांच्या आत पोकळी निर्माण होते किंवा आतला भाग तपकिरी होऊन खराब होतो."
+        },
+        "recommendedFertilizer": {
+          "en": "Boron 20% + Balanced Potash (MOP/SOP)",
+          "mr": "बोरॉन २०% + पोटॅश"
+        },
+        "dosage": {
+          "en": "Foliar spray: Boron 20% (Disodium Octaborate) @ 1 g/L of water at 35 and 55 days after planting.",
+          "mr": "फवारणी: बोरॉन २०% १ ग्रॅम प्रति लिटर पाण्यात लागवडीनंतर ३५ व ५५ दिवसांनी फवारावे."
+        },
+        "defenseRole": {
+          "en": "Boron is critical for rapid cell division and carbohydrate relocation; prevents rapid unequal expansion of tuber core cells.",
+          "mr": "बोरॉनमुळे बटाट्याच्या पेशींची योग्य विभागणी होते आणि कंदाची आतील वाढ संतुलित राहून पोकळी तयार होत नाही."
+        },
+        "precaution": {
+          "en": "Do not overdose Boron (strict max 1 g/L), as high levels can cause leaf burn.",
+          "mr": "बोरॉनचे प्रमाण १ ग्रॅम प्रति लिटरपेक्षा जास्त करू नये, अन्यथा पानांचे शेंडे जळू शकतात."
+        }
+      }
+    ],
+    "growthStages": [
+      {
+        "stage": { "en": "Basal & Planting", "mr": "लागवडीचा डोस" },
+        "timing": { "en": "At planting furrow", "mr": "बटाटा पेरताना" },
+        "fertilizers": {
+          "en": "FYM 10 tons/acre + DAP 75 kg + MOP 40 kg + Zinc Sulphate 10 kg per acre.",
+          "mr": "शेणखत १० टन + डीएपी ७५ किलो + पोटॅश ४० किलो + झिंक सल्फेट १० किलो प्रति एकर."
+        }
+      },
+      {
+        "stage": { "en": "Earthing Up (Tuber Initiation)", "mr": "भरणीचा टप्पा (कंद तयार होणे)" },
+        "timing": { "en": "30 to 35 days after planting", "mr": "लागवडीनंतर ३० ते ३५ दिवस" },
+        "fertilizers": {
+          "en": "Urea 30 kg + MOP 20 kg + Calcium Nitrate 15 kg/acre. Earth up soil well around stems.",
+          "mr": "युरिया ३० किलो + पोटॅश २० किलो + कॅल्शियम नायट्रेट १५ किलो प्रति एकर. चांगल्या प्रकारे भर लावावी."
+        }
+      },
+      {
+        "stage": { "en": "Tuber Bulking & Maturation", "mr": "कंद फुगवण अवस्था" },
+        "timing": { "en": "50 to 70 days after planting", "mr": "लागवडीनंतर ५० ते ७० दिवस" },
+        "fertilizers": {
+          "en": "0:52:34 @ 4 g/L + 13:0:45 @ 5 g/L foliar spray. Stop irrigation 10 days prior to digging.",
+          "mr": "०:५२:३४ ४ ग्रॅम + १३:०:४५ ५ ग्रॅम प्रति लिटर फवारणी. काढणीच्या १० दिवस आधी पाणी देणे थांबवावे."
+        }
+      }
+    ]
+  },
+  {
+    "cropId": "chilli",
+    "name": { "en": "Chilli", "mr": "मिरची" },
+    "icon": "🌶️",
+    "npkRecommendation": "100:50:50 kg N:P:K per hectare",
+    "overview": {
+      "en": "Chilli crops are prone to sucking pests, virus complexes, and fungal anthracnose; balanced nutrition with micronutrients creates resilient tissues.",
+      "mr": "मिरचीवर चुरडा-मुरडा (व्हायरस), फुलकिडे आणि फळसड रोगांचा मोठा प्रादुर्भाव होतो; संतुलित खते व सूक्ष्मअन्नद्रव्यांमुळे वनस्पती सशक्त राहते."
+    },
+    "diseaseConditions": [
+      {
+        "id": "chilli-anthracnose-dieback",
+        "title": { "en": "Anthracnose & Dieback Resistance", "mr": "डायबॅक (शेंडे वाळणे) व फळ सड प्रतिकार" },
+        "causeType": "disease_defense",
+        "symptoms": {
+          "en": "Twigs dry from top to bottom; dark sunken circular lesions on mature green and red fruits.",
+          "mr": "झाडाचे शेंडे वरून खाली वाळत जाणे आणि लाल/हिरव्या मिरच्यांवर गोल काळपट चट्टे पडून सडणे."
+        },
+        "recommendedFertilizer": {
+          "en": "Potassium Nitrate (13:0:45) + Micronutrient Zinc/Boron foliar spray",
+          "mr": "पोटॅशियम नायट्रेट (१३:०:४५) + झिंक व बोरॉन सूक्ष्मअन्नद्रव्ये"
+        },
+        "dosage": {
+          "en": "Foliar spray: 13:0:45 @ 4-5 g/L + Chelated Zinc @ 1 g/L + Boron 20% @ 1 g/L during fruit set.",
+          "mr": "फवारणी: १३:०:४५ ४ ते ५ ग्रॅम + चिलेटेड झिंक १ ग्रॅम + बोरॉन १ ग्रॅम प्रति लिटर पाणी फळधारणेच्या काळात."
+        },
+        "defenseRole": {
+          "en": "Boosts cell wall toughness in fruit rind so fungal spores cannot penetrate easily. Prevents premature fruit shedding.",
+          "mr": "मिरचीच्या फळांची साल जाड होते, ज्यामुळे बुरशी आत शिंपू शकत नाही आणि फळगळ कमी होते."
+        },
+        "precaution": {
+          "en": "Avoid excessive overhead irrigation; prune infected twigs and burn them.",
+          "mr": "पानाचा जास्त ओलावा टाळा, रोगट शेंडे छाटून नष्ट करा."
+        }
+      },
+      {
+        "id": "chilli-leaf-curl-murda",
+        "title": { "en": "Leaf Curl (Murda) Recovery & Vigor Support", "mr": "चुरडा-मुरडा (बोकड्या) व पानांचा पिवळेपणा" },
+        "causeType": "deficiency",
+        "symptoms": {
+          "en": "Upward boat-shaped leaf cupping (thrips/virus) or downward curling (mites), brittle yellow leaves.",
+          "mr": "पाने बोटीच्या आकारासारखी वर किंवा खाली वळणे, झाड लहान राहणे व फळे न लागणे."
+        },
+        "recommendedFertilizer": {
+          "en": "Zinc Sulphate (Chelated Zn) + Magnesium Sulphate + 19:19:19",
+          "mr": "चिलेटेड झिंक + मॅग्नेशियम सल्फेट + १९:१९:१९"
+        },
+        "dosage": {
+          "en": "Foliar spray: 19:19:19 @ 4 g/L + Chelated Zinc @ 1 g/L + Magnesium Sulphate @ 3 g/L.",
+          "mr": "फवारणी: १९:१९:१९ ४ ग्रॅम + चिलेटेड झिंक १ ग्रॅम + मॅग्नेशियम सल्फेट ३ ग्रॅम प्रति लिटर."
+        },
+        "defenseRole": {
+          "en": "Enables the plant to restart chlorophyll generation and produce fresh shoots after pest attacks, overcoming virus stunting.",
+          "mr": "नवीन फूट येण्यास मदत होते, पानांमधील अन्न निर्मिती सुरू होऊन झाडाची वाढ पूर्ववत होते."
+        },
+        "precaution": {
+          "en": "Control vector pests (thrips and mites) using neem oil or recommended IPM alongside nutrient sprays.",
+          "mr": "खतांसोबतच निमार्क (५ मिली/लिटर) वापरून किडींचे नियंत्रण करणे अत्यंत गरजेचे आहे."
+        }
+      }
+    ],
+    "growthStages": [
+      {
+        "stage": { "en": "Basal Application", "mr": "लागवडीचा डोस" },
+        "timing": { "en": "At bed preparation", "mr": "गादीवाफा तयार करताना" },
+        "fertilizers": {
+          "en": "Compost 5 tons + 10:26:26 (or DAP 50 kg + MOP 25 kg) + Micronutrient mixture 10 kg + Neem Cake 100 kg/acre.",
+          "mr": "शेणखत ५ टन + १०:२६:२६ ५० किलो (किंवा डीएपी ५० किलो + पोटॅश २५ किलो) + सूक्ष्मअन्नद्रव्ये १० किलो + निंबोळी पेंड १०० किलो."
+        }
+      },
+      {
+        "stage": { "en": "Vegetative Branching", "mr": "फांद्या फुटण्याची अवस्था" },
+        "timing": { "en": "20 to 40 days after transplanting", "mr": "लागवडीनंतर २० ते ४० दिवस" },
+        "fertilizers": {
+          "en": "Urea 25 kg/acre split + 19:19:19 @ 5 g/L foliar spray to encourage heavy branching.",
+          "mr": "युरिया २५ किलो प्रति एकर + १९:१९:१९ ५ ग्रॅम/लिटर फवारणी (जास्त फांद्या व वाढीसाठी)."
+        }
+      },
+      {
+        "stage": { "en": "Flowering & Continuous Plucking", "mr": "फुलधारणा व तोडणीचा काळ" },
+        "timing": { "en": "50 to 120 days after transplanting", "mr": "लागवडीनंतर ५० ते १२० दिवस" },
+        "fertilizers": {
+          "en": "0:52:34 @ 4 g/L + 13:0:45 @ 4 g/L in alternation every 15 days; Calcium Nitrate 10 kg/acre via drip.",
+          "mr": "०:५२:३४ ४ ग्रॅम आणि १३:०:४५ ४ ग्रॅम आलटून पालटून दर १५ दिवसांनी; ठिबकमधून कॅल्शियम नायट्रेट १० किलो/एकर."
+        }
+      }
+    ]
+  },
+  {
+    "cropId": "okra",
+    "name": { "en": "Okra", "mr": "भेंडी" },
+    "icon": "🌿",
+    "npkRecommendation": "100:50:50 kg N:P:K per hectare",
+    "overview": {
+      "en": "Okra needs steady balanced feeding to produce tender pods without encouraging whitefly-attracting excessive foliage.",
+      "mr": "भेंडीला कोवळी व हिरवी फळे येण्यासाठी संतुलित खतांची गरज असते; जास्त नत्रामुळे पांढरी माशी व विषाणू वाढतात."
+    },
+    "diseaseConditions": [
+      {
+        "id": "okra-ymv-tolerance",
+        "title": { "en": "Yellow Vein Mosaic (YVMV) Tolerance Support", "mr": "पिवळा शिरा मोझॅक (केवडा) प्रतिकार सहाय्य" },
+        "causeType": "disease_defense",
+        "symptoms": {
+          "en": "Veins turn bright yellow, leaves become small and leathery, fruits turn pale yellow and hard.",
+          "mr": "पानांच्या शिरा पिवळ्या पडतात, फळे फिकट पिवळी व कडक होतात."
+        },
+        "recommendedFertilizer": {
+          "en": "Potassium Schoenite / SOP (0:0:50) + Micronutrient Mixture (Grade IV)",
+          "mr": "पोटॅशियम शोएनाईट / 0:0:50 + सूक्ष्मअन्नद्रव्ये ग्रेड ४"
+        },
+        "dosage": {
+          "en": "Foliar spray: 0:0:50 @ 4 g/L + Micronutrient mix @ 1.5 g/L every 12-14 days. Avoid excess Urea.",
+          "mr": "फवारणी: 0:0:50 ४ ग्रॅम + मायक्रोन्यूट्रियंट १.५ ग्रॅम प्रति लिटर दर १२-१४ दिवसांनी. जास्त युरिया टाळावा."
+        },
+        "defenseRole": {
+          "en": "Potash and micronutrients toughen leaf texture, making it unpalatable for whiteflies (the virus vector) and preserving photosynthetic capability.",
+          "mr": "पाने टणक होतात ज्यामुळे पांढरी माशी रस शोषू शकत नाही आणि विषाणूचा फैलाव मर्यादित राहतो."
+        },
+        "precaution": {
+          "en": "Immediately remove and bury severely infected virus-affected plants.",
+          "mr": "रोगट झालेली झाडे त्वरित उपटून जमिनीत गाडून टाकावीत."
+        }
+      },
+      {
+        "id": "okra-powdery-mildew-defense",
+        "title": { "en": "Powdery Mildew Defense & Leaf Drop", "mr": "भुरी रोग (पावडर पडणे) प्रतिबंध" },
+        "causeType": "disease_defense",
+        "symptoms": {
+          "en": "White powdery fungal patches on upper and lower surfaces of leaves; leaves turn yellow and drop.",
+          "mr": "पानांच्या दोन्ही बाजूंवर पांढरी भुकटी जमा होते, पाने पिवळी पडून गळतात."
+        },
+        "recommendedFertilizer": {
+          "en": "Water Soluble Sulphur (80% WDG) + 0:52:34 (MKP)",
+          "mr": "पाण्यात विद्राव्य सल्फर (८०% डब्ल्यूडीजी) + ०:५२:३४"
+        },
+        "dosage": {
+          "en": "Foliar spray: Sulphur 80% WDG @ 2.5 g/L + 0:52:34 @ 4 g/L of water at the first sign of white spots.",
+          "mr": "फवारणी: सल्फर ८०% २.५ ग्रॅम + ०:५२:३४ ४ ग्रॅम प्रति लिटर पाण्यात मिसळून पांढरे डाग दिसताच फवारावे."
+        },
+        "defenseRole": {
+          "en": "Sulphur vaporizes on leaf surfaces creating an antifungal shield against powdery mildew mycelium while delivering sulphur nutrients.",
+          "mr": "सल्फरमुळे बुरशीची वाढ रोखली जाते आणि पात्यांना पोषण मिळून हिरवेगारपणा टिकतो."
+        },
+        "precaution": {
+          "en": "Do not spray sulphur when temperature exceeds 35°C to avoid leaf scorching.",
+          "mr": "तापमान ३५ अंश सेल्सिअसपेक्षा जास्त असल्यास दुपारच्या वेळी सल्फर फवारू नये."
+        }
+      }
+    ],
+    "growthStages": [
+      {
+        "stage": { "en": "Basal Sowing", "mr": "पेरणीचा डोस" },
+        "timing": { "en": "At seed sowing", "mr": "बियाणे पेरताना" },
+        "fertilizers": {
+          "en": "FYM 5 tons/acre + DAP 40 kg + MOP 20 kg + Neem Cake 50 kg per acre.",
+          "mr": "शेणखत ५ टन + डीएपी ४० किलो + पोटॅश २० किलो + निंबोळी पेंड ५० किलो प्रति एकर."
+        }
+      },
+      {
+        "stage": { "en": "Vegetative Stage", "mr": "वाढीचा टप्पा" },
+        "timing": { "en": "20 to 30 days after sowing", "mr": "पेरणीनंतर २० ते ३० दिवस" },
+        "fertilizers": {
+          "en": "Top-dress Urea 20 kg/acre. Foliar spray 19:19:19 @ 5 g/L.",
+          "mr": "युरिया २० किलो प्रति एकर. १९:१९:१९ ५ ग्रॅम प्रति लिटर फवारणी."
+        }
+      },
+      {
+        "stage": { "en": "Fruiting & Harvest Stage", "mr": "फळधारणा व तोडणी" },
+        "timing": { "en": "40 to 80 days after sowing", "mr": "पेरणीनंतर ४० ते ८० दिवस" },
+        "fertilizers": {
+          "en": "13:0:45 @ 4 g/L + 0:52:34 @ 3 g/L weekly foliar spray to maintain dark green color and tender pod elongation.",
+          "mr": "१३:०:४५ ४ ग्रॅम + ०:५२:३४ ३ ग्रॅम आठवड्यातून एकदा फवारणी (भेंडी हिरवीगार व कोवळी राहण्यासाठी)."
+        }
+      }
+    ]
+  },
+  {
+    "cropId": "cotton",
+    "name": { "en": "Cotton", "mr": "कापूस" },
+    "icon": "🌾",
+    "npkRecommendation": "120:60:60 kg N:P:K per hectare",
+    "overview": {
+      "en": "Cotton is sensitive to magnesium and potassium deficiencies during boll development, which leads to leaf reddening (Lalya) and boll shedding.",
+      "mr": "कापसामध्ये बोंडे भरताना मॅग्नेशियम आणि पोटॅशच्या कमतरतेमुळे लाल्या रोग व पातेगळ मोठ्या प्रमाणात होते."
+    },
+    "diseaseConditions": [
+      {
+        "id": "cotton-lalya-leaf-reddening",
+        "title": { "en": "Leaf Reddening (Lalya) & Boll Shedding", "mr": "कापसावरील लाल्या रोग व पातेगळ" },
+        "causeType": "deficiency",
+        "symptoms": {
+          "en": "Leaves turn purplish-red between veins, dry prematurely, bolls remain small or drop off.",
+          "mr": "पाने शिरांमधील भागात लाल किंवा जांभळी पडतात, वाळून गळतात आणि पातेगळ होते."
+        },
+        "recommendedFertilizer": {
+          "en": "Magnesium Sulphate + Potassium Nitrate (13:0:45) + Urea foliar spray",
+          "mr": "मॅग्नेशियम सल्फेट + पोटॅशियम नायट्रेट (१३:०:४५) + युरिया"
+        },
+        "dosage": {
+          "en": "Foliar spray: Magnesium Sulphate @ 10 g/L (1%) + 13:0:45 @ 10 g/L + Urea @ 10 g/L at square formation and boll bursting.",
+          "mr": "फवारणी: मॅग्नेशियम सल्फेट १० ग्रॅम (१%) + १३:०:४५ १० ग्रॅम + युरिया १० ग्रॅम प्रति लिटर पाणी पाते व बोंड अवस्थेत २ ते ३ वेळा फवारावे."
+        },
+        "defenseRole": {
+          "en": "Supplies central magnesium atoms needed for chlorophyll maintenance and potassium to prevent premature vascular breakdown during cold night stress.",
+          "mr": "हरितद्रव्याची कमतरता भरून काढते, पानांचा हिरवेगारपणा टिकवून ठेवते आणि बोंडांचे वजन वाढवते."
+        },
+        "precaution": {
+          "en": "Start spraying before 50% leaves turn red; advanced reddened leaves cannot be rejuvenated.",
+          "mr": "पाने लाल पडायला सुरुवात होताच फवारणी करावी; पूर्ण लाल झालेली पाने पुन्हा हिरवी होत नाहीत."
+        }
+      },
+      {
+        "id": "cotton-wilt-root-rot-defense",
+        "title": { "en": "Fusarium Wilt & Root Rot Defense", "mr": "मर रोग (विल्ट) व मुळकुज प्रतिबंध" },
+        "causeType": "disease_defense",
+        "symptoms": {
+          "en": "Sudden drooping and wilting of plants, yellowing leaves, brown discoloration in vascular rings.",
+          "mr": "झाड अचानक कोमेजून सुकते, खोड कापल्यास आतून काळपट तपकिरी थर दिसतो."
+        },
+        "recommendedFertilizer": {
+          "en": "Muriate of Potash (MOP) + Trichoderma viride enriched FYM",
+          "mr": "म्युरिएट ऑफ पोटॅश (एमओपी) + ट्रायकोडर्मायुक्त शेणखत"
+        },
+        "dosage": {
+          "en": "Soil: Apply 30 kg Potash/acre. Drenching around infected zones: Trichoderma viride @ 5 g/L of water.",
+          "mr": "जमिनीत ३० किलो पोटॅश प्रति एकर. झाडाच्या मुळाजवळ ट्रायकोडर्मा ५ ग्रॅम/लिटर पाण्यात ड्रेन्चिंग करावे."
+        },
+        "defenseRole": {
+          "en": "Potassium reduces vascular plugging and enhances water transport in the plant. Biological Trichoderma outcompetes soil fungal pathogens.",
+          "mr": "पोटॅशमुळे झाडाची रसवाहिन्यांची कार्यक्षमता वाढते आणि ट्रायकोडर्मा जमिनीत रोगकारक बुरशीला नष्ट करतो."
+        },
+        "precaution": {
+          "en": "Ensure proper drainage; waterlogging in heavy black soils drastically accelerates wilt fungal attack.",
+          "mr": "शेतात पाणी साचू देऊ नये; अति पाण्यामुळे मर रोगाचा प्रादुर्भाव वेगाने वाढतो."
+        }
+      }
+    ],
+    "growthStages": [
+      {
+        "stage": { "en": "Basal Application", "mr": "पेरणीचा वेळ" },
+        "timing": { "en": "At sowing", "mr": "पेरणीच्या वेळी" },
+        "fertilizers": {
+          "en": "DAP 50 kg (or 10:26:26 75 kg) + MOP 25 kg + Zinc Sulphate 10 kg + Neem Cake 100 kg/acre.",
+          "mr": "डीएपी ५० किलो (किंवा १०:२६:२६ ७५ किलो) + पोटॅश २५ किलो + झिंक सल्फेट १० किलो + निंबोळी पेंड १०० किलो."
+        }
+      },
+      {
+        "stage": { "en": "Square Formation & Flowering", "mr": "पाते व फुलधारणा अवस्था" },
+        "timing": { "en": "45 to 70 days after sowing", "mr": "पेरणीनंतर ४५ ते ७० दिवस" },
+        "fertilizers": {
+          "en": "Urea 30 kg/acre top-dress + 12:61:00 @ 5 g/L + Boron 20% @ 1 g/L foliar spray to prevent square drop.",
+          "mr": "युरिया ३० किलो प्रति एकर + १२:६१:०० ५ ग्रॅम + बोरॉन १ ग्रॅम प्रति लिटर फवारणी (पातेगळ रोखण्यासाठी)."
+        }
+      },
+      {
+        "stage": { "en": "Boll Development & Bursting", "mr": "बोंड विकास व फुटण्याचा काळ" },
+        "timing": { "en": "80 to 120 days after sowing", "mr": "पेरणीनंतर ८० ते १२० दिवस" },
+        "fertilizers": {
+          "en": "0:0:50 @ 5 g/L + 13:0:45 @ 5 g/L + Magnesium Sulphate 10 g/L for heavy boll weight and premium staple length.",
+          "mr": "0:0:50 ५ ग्रॅम + १३:०:४५ ५ ग्रॅम + मॅग्नेशियम सल्फेट १० ग्रॅम फवारणी (कापसाची प्रत व बोंडांचे वजन वाढवण्यासाठी)."
+        }
+      }
+    ]
+  },
+  {
+    "cropId": "soybean",
+    "name": { "en": "Soybean", "mr": "सोयाबीन" },
+    "icon": "🌱",
+    "npkRecommendation": "30:60:30 kg N:P:K + 20 kg Sulphur per hectare",
+    "overview": {
+      "en": "As a legume, soybean fixes its own nitrogen, but requires adequate Phosphorus, Potash, and Sulphur for strong nodules and high oil content.",
+      "mr": "सोयाबीन हे कडधान्य पीक असल्याने नत्र स्वतः तयार करते; मात्र भरपूर शेंगा, दाणे भरण्यासाठी स्फुरद, पालाश आणि गंधक अत्यंत महत्त्वाचे आहेत."
+    },
+    "diseaseConditions": [
+      {
+        "id": "soybean-rust-stress",
+        "title": { "en": "Rust Resistance & Pod Blight Support", "mr": "तांबेरा रोग (रस्ट) व शेंगा करपा प्रतिकार" },
+        "causeType": "disease_defense",
+        "symptoms": {
+          "en": "Tiny reddish-brown pustules on underside of leaves; leaves dry and drop prematurely during pod fill.",
+          "mr": "पानांच्या खालच्या बाजूला तांबूस-तपकिरी रंगाचे फोड येतात, पाने सुकतात आणि दाणे नीट भरत नाहीत."
+        },
+        "recommendedFertilizer": {
+          "en": "Foliar 0:52:34 (MKP) + Chelated Zinc + Sulphur 80% WDG",
+          "mr": "विद्राव्य ०:५२:३४ + चिलेटेड झिंक + सल्फर ८०% डब्ल्यूडीजी"
+        },
+        "dosage": {
+          "en": "Foliar spray: 0:52:34 @ 5 g/L + Sulphur 80% @ 2 g/L at flowering and pod development stages.",
+          "mr": "फवारणी: ०:५२:३४ ५ ग्रॅम + सल्फर २ ग्रॅम प्रति लिटर पाणी फुले व शेंगा भरण्याच्या अवस्थेत."
+        },
+        "defenseRole": {
+          "en": "Phosphate stimulates root vigor while Potassium and Sulphur toughen foliage against rust pustule eruption.",
+          "mr": "फॉस्फरसमुळे मुळांची कार्यक्षमता वाढते आणि पोटॅश व सल्फर पानांची प्रतिकारशक्ती वाढवून तांबेरा रोगाचा प्रादुर्भाव रोखतात."
+        },
+        "precaution": {
+          "en": "If rust pustules appear widely, immediately combine an ICAR-recommended triazole fungicide with foliar spray.",
+          "mr": "तांबेऱ्याची लक्षणे दिसताच तज्ज्ञांच्या सल्ल्याने ट्रायझोल गटातील बुरशीनाशकाची फवारणी करावी."
+        }
+      },
+      {
+        "id": "soybean-yellow-mosaic-defense",
+        "title": { "en": "Yellow Mosaic (YMV) Stress Mitigation", "mr": "पिवळा मोझॅक (केवडा) ताण निवारण" },
+        "causeType": "deficiency",
+        "symptoms": {
+          "en": "Irregular bright yellow and green patches on leaves, reduced pod setting and shriveled grains.",
+          "mr": "पानांवर पिवळे व हिरवे चट्टे पडतात (केवडा), शेंगांमध्ये बारीक व सुरकुतलेले दाणे तयार होतात."
+        },
+        "recommendedFertilizer": {
+          "en": "Foliar spray of 19:19:19 + Chelated Micronutrients (Fe, Zn, B)",
+          "mr": "१९:१९:१९ + चिलेटेड सूक्ष्मअन्नद्रव्ये फवारणी"
+        },
+        "dosage": {
+          "en": "Foliar spray: 19:19:19 @ 5 g/L + Micronutrient mix @ 1.5 g/L at 30-35 days.",
+          "mr": "फवारणी: १९:१९:१९ ५ ग्रॅम + मायक्रोन्यूट्रियंट १.५ ग्रॅम प्रति लिटर ३०-३५ दिवसांच्या पिकावर."
+        },
+        "defenseRole": {
+          "en": "Helps undamaged plants survive whitefly feeding stress and maintain photosynthetic activity.",
+          "mr": "पांढऱ्या माशीमुळे येणाऱ्या ताणातून पिकाला सावरण्यास मदत होते आणि दाणे पोसण्यास ऊर्जा मिळते."
+        },
+        "precaution": {
+          "en": "Treat seed with Rhizobium and Trichoderma prior to sowing to ensure strong seedling immunity.",
+          "mr": "पेरणीपूर्वी बियाण्याला रायझोबियम व ट्रायकोडर्माची बीजप्रक्रिया आवर्जून करावी."
+        }
+      }
+    ],
+    "growthStages": [
+      {
+        "stage": { "en": "Basal Sowing", "mr": "पेरणीच्या वेळी" },
+        "timing": { "en": "At sowing", "mr": "पेरणी करताना" },
+        "fertilizers": {
+          "en": "DAP 50 kg (or SSP 100 kg) + MOP 20 kg + Bensulf (Sulphur) 10 kg per acre. Avoid excess Urea.",
+          "mr": "डीएपी ५० किलो (किंवा एसएसपी १०० किलो) + पोटॅश २० किलो + बेनसल्फ (सल्फर) १० किलो प्रति एकर. युरिया जास्त देऊ नये."
+        }
+      },
+      {
+        "stage": { "en": "Flowering Stage", "mr": "फुलधारणा अवस्था" },
+        "timing": { "en": "35 to 45 days after sowing", "mr": "पेरणीनंतर ३५ ते ४५ दिवस" },
+        "fertilizers": {
+          "en": "Foliar spray: 12:61:00 @ 5 g/L + Boron 20% @ 1 g/L to boost flower count and prevent dropping.",
+          "mr": "फवारणी: १२:६१:०० ५ ग्रॅम + बोरॉन १ ग्रॅम प्रति लिटर (फुलांची संख्या वाढवण्यासाठी व गळ रोखण्यासाठी)."
+        }
+      },
+      {
+        "stage": { "en": "Pod Filling Stage", "mr": "शेंगा भरण्याची अवस्था" },
+        "timing": { "en": "60 to 75 days after sowing", "mr": "पेरणीनंतर ६० ते ७५ दिवस" },
+        "fertilizers": {
+          "en": "Foliar spray: 0:52:34 @ 5 g/L or 13:0:45 @ 5 g/L for bold, shiny seeds with maximum weight.",
+          "mr": "फवारणी: ०:५२:३४ ५ ग्रॅम किंवा १३:०:४५ ५ ग्रॅम प्रति लिटर (शेंगांमध्ये टपोरे, चमकदार दाणे भरण्यासाठी)."
+        }
+      }
+    ]
+  },
+  {
+    "cropId": "groundnut",
+    "name": { "en": "Groundnut", "mr": "भुईमूग" },
+    "icon": "🥜",
+    "npkRecommendation": "25:50:50 kg N:P:K + Gypsum 400-500 kg/ha",
+    "overview": {
+      "en": "Groundnut has an exceptional requirement for Calcium at the pegging zone to prevent empty pods (pops) and strengthen shell resistance against collar rot.",
+      "mr": "भुईमुगाला आऱ्या सुटताना कॅल्शियमची (जिप्सम) नितांत गरज असते; यामुळे शेंगा पोकळ (पोचट) राहत नाहीत आणि कडक टरफल तयार होते."
+    },
+    "diseaseConditions": [
+      {
+        "id": "groundnut-tikka-disease-defense",
+        "title": { "en": "Tikka (Cercospora Leaf Spot) Defense", "mr": "टिक्का रोग (पानावरील ठिपके) प्रतिकार" },
+        "causeType": "disease_defense",
+        "symptoms": {
+          "en": "Circular dark necrotic spots surrounded by yellow halos on leaves, resulting in premature leaf defoliation.",
+          "mr": "पानांवर काळपट गोलाकार ठिपके व त्याच्याभोवती पिवळे कडे दिसतात; पाने मोठ्या प्रमाणात गळतात."
+        },
+        "recommendedFertilizer": {
+          "en": "Gypsum (Calcium Sulphate) + Foliar Potash & Sulphur 80% WDG",
+          "mr": "जिप्सम (कॅल्शियम सल्फेट) + पोटॅश व सल्फर ८०% डब्ल्यूडीजी"
+        },
+        "dosage": {
+          "en": "Soil: Gypsum @ 200 kg/acre at 40-45 days (pegging). Foliar spray: Sulphur 80% @ 2 g/L + 0:52:34 @ 4 g/L.",
+          "mr": "जमिनीत: जिप्सम २०० किलो प्रति एकर आऱ्या सुटताना (४०-४५ दिवसांनी). फवारणी: सल्फर २ ग्रॅम + ०:५२:३४ ४ ग्रॅम प्रति लिटर."
+        },
+        "defenseRole": {
+          "en": "Calcium hardens subterranean pod shells against pathogen entry; Sulphur provides vital amino acids and acts as a contact fungal shield.",
+          "mr": "कॅल्शियममुळे शेंगेचे टरफल मजबूत होते आणि सल्फरमुळे पानांवर बुरशीचा प्रादुर्भाव रोखला जाऊन तेलाचे प्रमाण वाढते."
+        },
+        "precaution": {
+          "en": "Apply Gypsum near the plant base and incorporate lightly into topsoil during hoeing.",
+          "mr": "जिप्सम झाडाच्या बुंध्याजवळ टाकून कोळपणी करून मातीत मिसळावे."
+        }
+      },
+      {
+        "id": "groundnut-empty-pods-boron",
+        "title": { "en": "Empty Shells (Pops) & Collar Rot Resistance", "mr": "पोचट शेंगा (पॉप्स) व कॉलर रॉट प्रतिबंध" },
+        "causeType": "deficiency",
+        "symptoms": {
+          "en": "Pod shells form normally but contain shriveled, hollow, or absent seed kernels.",
+          "mr": "शेंगा मोठ्या दिसतात पण आत दाणे तयार होत नाहीत किंवा पोकळ व सुकलेले राहतात."
+        },
+        "recommendedFertilizer": {
+          "en": "Boron 20% foliar spray + Trichoderma-enriched FYM",
+          "mr": "बोरॉन २०% फवारणी + ट्रायकोडर्मायुक्त शेणखत"
+        },
+        "dosage": {
+          "en": "Foliar spray: Boron 20% @ 1 g/L of water at 35 and 55 days after sowing.",
+          "mr": "फवारणी: बोरॉन २०% १ ग्रॅम प्रति लिटर पाण्यात पेरणीनंतर ३५ व ५५ दिवसांनी फवारावे."
+        },
+        "defenseRole": {
+          "en": "Boron facilitates pollen viability, fertilization, and sugar translocation into developing subterranean pods.",
+          "mr": "बोरॉनमुळे परागीभवन उत्तम होते आणि दाण्यांमध्ये साखर व प्रथिनांचे वहन होऊन टपोरे दाणे भरतात."
+        },
+        "precaution": {
+          "en": "Do not exceed recommended Boron dosage to prevent foliar toxicity.",
+          "mr": "बोरॉनचे प्रमाण १ ग्रॅम/लिटरपेक्षा जास्त करू नये."
+        }
+      }
+    ],
+    "growthStages": [
+      {
+        "stage": { "en": "Basal Sowing", "mr": "पेरणीचा वेळ" },
+        "timing": { "en": "At sowing", "mr": "पेरणी करताना" },
+        "fertilizers": {
+          "en": "Single Super Phosphate (SSP) 125 kg + MOP 30 kg + Urea 15 kg + Zinc Sulphate 10 kg per acre.",
+          "mr": "सिंगल सुपर फॉस्फेट (एसएसपी) १२५ किलो + पोटॅश ३० किलो + युरिया १५ किलो + झिंक सल्फेट १० किलो प्रति एकर."
+        }
+      },
+      {
+        "stage": { "en": "Flowering & Pegging (Critical)", "mr": "फुले व आऱ्या सुटण्याचा टप्पा" },
+        "timing": { "en": "35 to 45 days after sowing", "mr": "पेरणीनंतर ३५ ते ४५ दिवस" },
+        "fertilizers": {
+          "en": "Apply Gypsum 200 kg/acre around root zone. Foliar spray 19:19:19 @ 5 g/L + Boron @ 1 g/L.",
+          "mr": "जिप्सम २०० किलो प्रति एकर झाडाच्या मुळाजवळ देणे. १९:१९:१९ ५ ग्रॅम + बोरॉन १ ग्रॅम/लिटर फवारणी."
+        }
+      },
+      {
+        "stage": { "en": "Pod Filling Stage", "mr": "शेंगा भरण्याची अवस्था" },
+        "timing": { "en": "60 to 80 days after sowing", "mr": "पेरणीनंतर ६० ते ८० दिवस" },
+        "fertilizers": {
+          "en": "0:52:34 @ 5 g/L or 13:0:45 @ 5 g/L foliar spray. Maintain uniform soil moisture.",
+          "mr": "०:५२:३४ ५ ग्रॅम किंवा १३:०:४५ ५ ग्रॅम प्रति लिटर फवारणी. जमिनीत योग्य ओलावा ठेवावा."
+        }
+      }
+    ]
+  },
+  {
+    "cropId": "wheat",
+    "name": { "en": "Wheat", "mr": "गहू" },
+    "icon": "🌾",
+    "npkRecommendation": "120:60:40 kg N:P:K per hectare",
+    "overview": {
+      "en": "Wheat requires balanced Nitrogen in splits with adequate Potash and Zinc to prevent lodging (stem falling) and rust infection.",
+      "mr": "गहू लोळू नये (लॉजिंग) आणि तांबेरा रोगापासून संरक्षणासाठी नत्राचे संतुलित हप्ते, पोटॅश आणि झिंक आवश्यक आहेत."
+    },
+    "diseaseConditions": [
+      {
+        "id": "wheat-rust-lodging-defense",
+        "title": { "en": "Rust Tolerance & Stem Strength (Anti-Lodging)", "mr": "तांबेरा प्रतिकार व खोड मजबुती (गहू लोळणे प्रतिबंध)" },
+        "causeType": "disease_defense",
+        "symptoms": {
+          "en": "Yellow or brown pustules on leaves; weak stems collapsing under wind and heavy irrigation.",
+          "mr": "पानांवर पिवळ्या किंवा तपकिरी पुळ्या (तांबेरा); खोड कमकुवत झाल्यामुळे जोराच्या वाऱ्याने गहू जमिनीवर लोळणे."
+        },
+        "recommendedFertilizer": {
+          "en": "Muriate of Potash (MOP) + Potassium Nitrate (13:0:45) + Zinc Sulphate",
+          "mr": "पोटॅश (एमओपी) + पोटॅशियम नायट्रेट (१३:०:४५) + झिंक सल्फेट"
+        },
+        "dosage": {
+          "en": "Basal: MOP 20-25 kg/acre. Foliar spray: 13:0:45 @ 10 g/L (1%) at boot leaf stage and flag leaf emergence.",
+          "mr": "जमिनीत: पोटॅश २०-२५ किलो प्रति एकर. फवारणी: १३:०:४५ १० ग्रॅम (१%) प्रति लिटर पोटरी अवस्थेत व लोंबी बाहेर पडताना."
+        },
+        "defenseRole": {
+          "en": "Potassium lignifies stem walls to prevent lodging and enhances physiological disease resistance against Puccinia rust spores.",
+          "mr": "पोटॅशमुळे गव्हाचे खोड कडक व मजबूत होते ज्यामुळे पीक लोळत नाही आणि पानांची तांबेरा रोगाविरुद्ध प्रतिकारशक्ती वाढते."
+        },
+        "precaution": {
+          "en": "Do not apply late nitrogen top-dressing after heading, which attracts severe yellow and brown rust.",
+          "mr": "गव्हाच्या लोंब्या निघाल्यावर युरिया देऊ नये, यामुळे तांबेऱ्याचा प्रादुर्भाव वाढतो."
+        }
+      },
+      {
+        "id": "wheat-zinc-chlorosis",
+        "title": { "en": "Zinc Chlorosis & Tip Dieback", "mr": "झिंक कमतरता (पाने पांढरट पडून वाढ खुंटणे)" },
+        "causeType": "deficiency",
+        "symptoms": {
+          "en": "Broad bleached white or yellowish bands on both sides of leaf midrib; stunted tillering.",
+          "mr": "पानाच्या मधल्या शिरेच्या दोन्ही बाजूंस पांढरे किंवा फिकट पट्टे पडतात आणि फुटवे कमी येतात."
+        },
+        "recommendedFertilizer": {
+          "en": "Zinc Sulphate (21% or 33%) or Chelated Zinc EDTA 12%",
+          "mr": "झिंक सल्फेट किंवा चिलेटेड झिंक ईडीटीए १२%"
+        },
+        "dosage": {
+          "en": "Soil: 10 kg Zinc Sulphate/acre basal. Foliar spray: Chelated Zinc EDTA @ 1 g/L of water at CRI stage (21 days).",
+          "mr": "जमिनीत: झिंक सल्फेट १० किलो एकरी पेरणीवेळी. फवारणी: चिलेटेड झिंक १ ग्रॅम प्रति लिटर पेरणीनंतर २१ दिवसांनी."
+        },
+        "defenseRole": {
+          "en": "Zinc is the vital catalyst for auxin hormone synthesis, triggering robust tillering and root anchoring.",
+          "mr": "झिंकमुळे संजीवके तयार होतात ज्यामुळे मुळांची पकड मजबूत होते आणि फुटव्यांची संख्या वाढते."
+        },
+        "precaution": {
+          "en": "Never mix Zinc Sulphate directly with DAP or SSP in the soil furrow without separation, as they form insoluble Zinc Phosphate.",
+          "mr": "झिंक सल्फेट डीएपी किंवा एसएसपी सोबत एकत्र मिसळून टाकू नये."
+        }
+      }
+    ],
+    "growthStages": [
+      {
+        "stage": { "en": "Basal Sowing", "mr": "पेरणीचा वेळ" },
+        "timing": { "en": "At sowing", "mr": "पेरणी करताना" },
+        "fertilizers": {
+          "en": "DAP 50 kg + MOP 20 kg + Urea 25 kg + Zinc Sulphate 10 kg per acre.",
+          "mr": "डीएपी ५० किलो + पोटॅश २० किलो + युरिया २५ किलो + झिंक सल्फेट १० किलो प्रति एकर."
+        }
+      },
+      {
+        "stage": { "en": "Crown Root Initiation (CRI)", "mr": "मुकुट मुळे फुटण्याची अवस्था" },
+        "timing": { "en": "20 to 25 days after sowing (First irrigation)", "mr": "पेरणीनंतर २० ते २५ दिवस (पहिले पाणी)" },
+        "fertilizers": {
+          "en": "Top-dress Urea 30 kg/acre just before irrigation. Spray 19:19:19 @ 5 g/L if growth is slow.",
+          "mr": "पाणी देण्यापूर्वी युरिया ३० किलो प्रति एकर टाकावा. वाढ कमी असल्यास १९:१९:१९ ५ ग्रॅम/लिटर फवारावे."
+        }
+      },
+      {
+        "stage": { "en": "Boot & Flowering Stage", "mr": "पोटरी व लोंबी अवस्था" },
+        "timing": { "en": "55 to 70 days after sowing", "mr": "पेरणीनंतर ५५ ते ७० दिवस" },
+        "fertilizers": {
+          "en": "Foliar spray: 13:0:45 @ 10 g/L + Boron 20% @ 1 g/L for plump grain weight and uniform heading.",
+          "mr": "फवारणी: १३:०:४५ १० ग्रॅम + बोरॉन १ ग्रॅम प्रति लिटर (लोंबीतील दाणे टपोरे व भरदार होण्यासाठी)."
+        }
+      }
+    ]
+  },
+  {
+    "cropId": "black-gram",
+    "name": { "en": "Black Gram (Urad)", "mr": "उडीद" },
+    "icon": "🫘",
+    "npkRecommendation": "20:40:20 kg N:P:K per hectare",
+    "overview": {
+      "en": "Black gram requires bio-fertilizers (Rhizobium + PSB) and Phosphorus to develop healthy nitrogen-fixing root nodules and prevent root rot.",
+      "mr": "उडीद पिकाला हवेतील नत्र शोषण्यासाठी रायझोबियम व स्फुरद विरघळवणाऱ्या जिवाणूंची (PSB) आणि फॉस्फरसची मुख्य गरज असते."
+    },
+    "diseaseConditions": [
+      {
+        "id": "black-gram-root-rot-prevention",
+        "title": { "en": "Root Rot & Wilt Biological Defense", "mr": "मुळकुज व मर रोग जैविक प्रतिबंध" },
+        "causeType": "disease_defense",
+        "symptoms": {
+          "en": "Dark brown rotting of collar and taproot, yellowing and rapid drooping of whole plant.",
+          "mr": "मुळांवर व खोडाच्या जमिनीलगतच्या भागावर तपकिरी सड, झाडे अचानक पिवळी पडून वाळणे."
+        },
+        "recommendedFertilizer": {
+          "en": "Trichoderma viride + PSB (Phosphate Solubilizing Bacteria) seed & soil treatment",
+          "mr": "ट्रायकोडर्मा व्हिरीडी + पीएसबी जिवाणू खत"
+        },
+        "dosage": {
+          "en": "Seed treatment: Trichoderma @ 5 g/kg seed + Rhizobium @ 25 g/kg. Soil: 2 kg Trichoderma in 100 kg FYM per acre.",
+          "mr": "बीजप्रक्रिया: ५ ग्रॅम ट्रायकोडर्मा + २५ ग्रॅम रायझोबियम प्रति किलो बियाणे. जमिनीत: २ किलो ट्रायकोडर्मा १०० किलो शेणखतात."
+        },
+        "defenseRole": {
+          "en": "Bio-agent colonizes roots, preventing Rhizoctonia and Fusarium fungal infection while promoting vigorous root anchoring.",
+          "mr": "मुळांभोवती उपयुक्त जिवाणूंचे संरक्षक कवच तयार होते ज्यामुळे सड रोगाची बुरशी मुळांना हानी पोहोचवू शकत नाही."
+        },
+        "precaution": {
+          "en": "Do not treat seeds in direct hot sunlight; sow treated seed within 6 hours of inoculation.",
+          "mr": "बीजप्रक्रिया सावलीत करावी आणि ६ तासांच्या आत पेरणी करावी."
+        }
+      },
+      {
+        "id": "black-gram-flower-drop-pod-rot",
+        "title": { "en": "Flower Drop & Pod Blight Nutritional Support", "mr": "फुलगळ व शेंगा करपा निवारण" },
+        "causeType": "deficiency",
+        "symptoms": {
+          "en": "Heavy dropping of flowers during dry heat spells, small poorly filled pods.",
+          "mr": "उष्णतेमुळे फुले गळून पडणे आणि शेंगांमध्ये दाणे कमी भरणे."
+        },
+        "recommendedFertilizer": {
+          "en": "DAP 2% foliar spray OR 12:61:00 @ 4 g/L + Boron 20% @ 1 g/L",
+          "mr": "डीएपी २% फवारणी किंवा १२:६१:०० ४ ग्रॅम + बोरॉन १ ग्रॅम/लिटर"
+        },
+        "dosage": {
+          "en": "Foliar spray: 20 g DAP dissolved in 1 L water (decanted clear solution) or 12:61:00 @ 4 g/L at flowering onset.",
+          "mr": "फवारणी: २% डीएपी (२० ग्रॅम/लिटर पाण्यात विरघळवून गाळलेले पाणी) किंवा १२:६१:०० ४ ग्रॅम + बोरॉन १ ग्रॅम फुलधारणेवेळी."
+        },
+        "defenseRole": {
+          "en": "Supplies immediate ready phosphate to reproductive meristems, arresting premature flower shedding and strengthening pod husks.",
+          "mr": "फुलांना त्वरित ऊर्जा मिळून फुलगळ थांबते आणि शेंगांचा विकास वेगाने होतो."
+        },
+        "precaution": {
+          "en": "Soak DAP fertilizer in water overnight and use only the clear supernatant liquid for spraying to prevent nozzle clogging.",
+          "mr": "डीएपी आदल्या रात्री पाण्यात भिजवून ठेवावे आणि वरचे नितळ पाणी फवारणीसाठी वापरावे."
+        }
+      }
+    ],
+    "growthStages": [
+      {
+        "stage": { "en": "Basal Sowing", "mr": "पेरणीच्या वेळी" },
+        "timing": { "en": "At sowing", "mr": "पेरणी करताना" },
+        "fertilizers": {
+          "en": "DAP 40 kg + MOP 15 kg + Sulphur 5 kg/acre. Seed treated with Rhizobium culture.",
+          "mr": "डीएपी ४० किलो + पोटॅश १५ किलो + सल्फर ५ किलो प्रति एकर. बियाण्याला रायझोबियमची प्रक्रिया."
+        }
+      },
+      {
+        "stage": { "en": "Flowering & Pod Formation", "mr": "फुलोरा व शेंगा भरण्याची अवस्था" },
+        "timing": { "en": "30 to 45 days after sowing", "mr": "पेरणीनंतर ३० ते ४५ दिवस" },
+        "fertilizers": {
+          "en": "Foliar spray of 2% DAP or 0:52:34 @ 4 g/L + Micronutrient spray.",
+          "mr": "२% डीएपी किंवा ०:५२:३४ ४ ग्रॅम प्रति लिटर + सूक्ष्मअन्नद्रव्य फवारणी."
+        }
+      }
+    ]
+  }
+]
